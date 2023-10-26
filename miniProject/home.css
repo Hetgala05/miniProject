@@ -1,0 +1,603 @@
+body{
+    background-color: #bebbbb;
+    color:black;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin:0;
+    padding:0;
+    letter-spacing: 0.2px;
+}
+
+/* these are commonly used classes */
+
+.inline_block{
+    display: flex;
+    display: inline-block;
+}
+
+.links{
+    color: black;
+    text-decoration: none;
+    padding:1rem;
+}
+
+.links:hover {
+    transition-delay: 0.1s;
+    transition-duration: 0.5s;
+    text-decoration: underline 3px solid red;
+}
+
+.hero-links{
+    color: white;
+    text-decoration: none;
+}
+
+.right{ 
+    margin-left:49%;
+}
+
+.catchline{
+    text-align: center;
+    font-size: x-large;
+}
+
+.info{
+    margin:0rem auto 3rem auto;
+    width:40%;
+    text-align: center;
+}
+/* end of commonly used classes */
+
+.navbar{
+    font-size: large;
+    margin-left:10%;
+}
+
+.navbar img{
+    margin-top:1rem;
+}
+
+.hero-btn:hover{
+    transition: 0.5s;
+    /* background-color:#9b51e0; */
+    background-color: #f44336;
+    color: white;
+    border:0px;
+}
+
+.hero-btn{
+    padding:1rem 3rem 1rem 3rem;
+    background-color: transparent;
+    color: white;
+    border:2px white solid;
+    cursor:pointer;
+}
+
+.logo{
+    margin-top:0rem;
+    height:80px;
+}
+
+.hero{
+    background-image: url(home3.jpg);
+    background-size: cover;
+    height:50rem;
+}
+
+.first_page{
+    margin: 10.5rem 0rem 30rem 1rem;
+    display: flex;
+    display: block;
+    color: white;
+}
+
+.first_page:hover{
+    background-color: rgba(226,226,226,0.009);
+    padding:4px;
+    transition: 0.5s ease;
+}
+
+/* Used at two places on home page */
+
+.navbar .fa{
+    display: none;
+}
+
+@media(max-width:900px){
+    .catchline{
+        font-size: medium;
+    }
+    .info{
+        font-size: small;
+    }
+    .links{
+        display: flex;
+        display: block;
+    }
+    .hide{
+        position: absolute;
+        background-color: #f44336;
+        height:100vh;
+        width:200px;
+        top:0;
+        right:-200px;
+        text-align: left;
+        z-index: 1;
+        transition:1s;
+    }
+    .navbar .fa{
+        display: block;
+        color: #fff;
+        margin:10px;
+        cursor: pointer;
+    }
+    .navbar .fa-bars{
+        margin-top:-54px;
+        margin-left:90%;
+    }
+}
+
+/* 2nd slide */
+.brief{
+    margin-top:10rem;
+}
+
+.cards{
+    text-align: center;
+    align-items: center;
+}
+
+.intermediate,.Degree,.Post-Graduation{
+    margin-left: 40px;
+    margin-right:40px;
+    height:18rem;
+    width:20rem;
+    padding:2rem;
+    /* background-color: rgb(201, 45, 201); */
+    background-color: #314cb6 ;
+    cursor:text;
+}
+
+.intermediate:hover{
+    background-color: black; 
+    color: white;
+    transition: 0.5s;
+}
+
+.Degree:hover{
+    background-color: black; 
+    color: white;
+    transition: 0.5s;
+}
+
+.Post-Graduation:hover{
+    background-color: black; 
+    color: white;
+    transition: 0.5s;
+}
+
+.move{
+    margin-top:50px;
+}
+/* 3rd slide */
+.locations{
+    margin-top:25rem;
+    text-align: center;
+}
+
+.place{
+    height:30rem;
+    width:25rem;
+    position:relative;
+    overflow: hidden;
+    border-radius: 1rem;
+}
+
+.layer{
+    background:transparent;
+    color: black;
+    width:10rem;
+    bottom:31.5rem;
+    left:0rem;
+    height:30.1rem; 
+    width:100%;
+    position: relative;
+    border-radius: 1rem;
+    opacity: 0;
+}
+
+.layer:hover{
+    background-color: rgba(226,0,0,0.7);
+    transition: 0.5s;
+    cursor:pointer;
+    opacity:1;
+    color:black;
+}
+
+.shift{
+    margin-left:2rem;
+}
+
+@media(max-width:700px){
+    .image{
+        display: block;
+    }
+    /* this isnt working` */
+    .layer{
+    height:0rem;
+   }
+}
+
+/* facilities */
+
+.facilities{
+    text-align: center;
+}
+
+.teacher{
+    height:30rem;
+    width:25rem;
+    border-radius: 1rem;
+}
+
+@media(max-width:700px){
+    .image{
+        display: block;
+    }
+}
+
+/* review */
+
+.reviews{
+    width:80%;
+    margin:-15rem auto auto auto;
+    text-align: center;
+    padding-top:30rem;
+}
+
+.student{
+    width:40%;
+    border-radius: 10px;
+    background: #f4e4e4;
+    padding:25px;
+    margin-left:5%;
+    text-align: left;
+    cursor: text;
+}
+
+.student:hover{
+    background-color: #444054;
+    color: white;
+    transition: 0.5s ease;
+}
+
+.student p{
+    width:80%;
+}
+
+.student h3{
+    margin-left:5rem;
+}
+
+.user1{
+    height:40px;
+    margin-left:5px;
+    margin-right:30px;
+    border-radius: 50%;
+}
+/* Enroll */
+.cta{
+    text-align: center;
+    margin:10rem;
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(banner2.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 1rem;
+    padding: 8rem 0rem;
+    width:80%;
+    color: white;
+}
+
+/* About us page */
+.sub-hero{
+    height:50vh;
+    width:100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(background.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color:#fff;
+}
+
+.sub-hero img{
+    margin-left:-11rem;
+}
+
+.sub-hero h1{
+    margin-top:100px;
+}
+
+.about-content{
+    width:80%;
+    margin:auto;
+    padding-top:80px;
+    padding-bottom:50px;
+}
+
+.text{
+    width:50%;
+}
+
+.text p{
+    margin-bottom: 2rem;
+}
+
+.size{
+    width:40%;
+}
+
+.about-img{
+    width:100%;
+    margin-left:50px;
+}
+
+@media(max-width:700px){
+    .text{
+        display: block;
+    }
+    .text img{
+        margin-top:30px;
+        margin-left:0px;
+    }
+    .size{
+        width:100%;
+    }
+}
+
+/* About us page end */
+
+
+/* Courses */
+
+.courses{
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(bg.webp);
+    background-size: cover;
+    color: #d3d3d3;
+}
+
+.courses a{
+    color: #d3d3d3;
+}
+
+.courses main{
+    margin-left:3rem;    
+    margin-top:5rem;
+}
+
+.courses .brief{
+    margin-left:-3rem;
+}
+
+
+.courses .facilities{
+    margin-left:-7rem;
+    margin-top:15rem;
+}
+
+
+.lectures{
+    margin-top:10rem;
+}
+
+.aboutLec{
+    margin-left:10px;
+    vertical-align: top;
+}
+
+.video1{
+    padding:10px;
+}
+
+
+/* Courses end */
+
+
+/* Contact */
+.contact{
+    background-image: url(try.png);
+
+    background-size: cover;
+    background-color:beige;
+}
+
+.contact-header{
+    height:50vh;
+    width:100%;
+    text-align: center;
+    color:white;
+}
+
+.contact-header h1{
+    margin-top:5rem;
+    padding-bottom:5rem;
+}
+
+.contact-header a{
+    color: white;
+}
+
+.contact-header .navbar{
+   background-color: rgb(36, 36, 36);
+   margin-left:-1px;
+   width:100%;    
+}
+
+.contact-box{
+    margin:3rem 5rem 3rem 5rem;
+    border:1px solid rgba(255,255,255,0.4);
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2),-4px -4px 10px rgba(0, 0, 0, 0.2);
+    padding:2rem;
+}
+
+.contact-box h1{
+    color: #555;
+}
+
+.color{
+    display: block;
+    background-color: rgb(249, 27, 27);
+    margin:-15px 0px 10px 22px;
+    width:8rem;
+    height:5px;
+    border-radius: 10px;
+}
+
+input{
+    width:33rem;
+    height:2rem;
+    display: block;
+    margin-top:2rem;
+    padding: 6px 12px 6px 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: #555;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+}
+
+#about{
+    height: 135px;
+}
+
+.submit{
+    margin-top:20px;
+    margin-left:30rem;
+    cursor: pointer;
+}
+
+input:hover{
+    transition: border-color  ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+
+.right-contact{
+    vertical-align: top;
+    margin-left:3rem;
+}
+
+@media(max-width:900px){
+    .contact-box{
+        width:800px;
+    }
+    .right-contact{
+        display: block;
+        margin-left:-1rem;
+        margin-top:3rem;
+    }
+}
+
+@media(max-width:700px){
+    .contact input{
+        width:auto;
+    }
+}
+
+select{
+    margin-left:1rem;
+    padding:10px;
+    width:10rem;
+    height:3rem;
+}
+
+
+.hq{
+    margin-top:20px;
+    width:560px;
+    border:1px solid rgba(255,255,255,0.4);
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2),-4px -4px 10px rgba(0, 0, 0, 0.2);
+    padding:1rem;
+    color:#555;
+}
+
+.std{
+    margin-top:20px;
+    width:33rem;
+    border:1px solid rgba(255,255,255,0.4);
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2),-4px -4px 10px rgba(0, 0, 0, 0.2);
+    padding:1rem;
+    color:#555;
+}
+
+/* Contact end */
+
+
+footer{
+    margin-top: 230px;
+}
+
+.footer{
+    width:100%;
+    text-align: center;
+    padding:30px 0;
+}
+
+.footeR h4{
+    margin-top:30px;
+    font-weight: 600;
+}
+
+.footer p{
+    margin-top:30px;
+    width:60%;
+    margin-left:auto;
+    margin-right:auto;  
+}
+
+.icons .fa{
+    color:#f44336;
+    margin:0 13px;
+    cursor:pointer;
+    padding:18px 0;
+}
+
+.fa-heart-o{
+    color:#f44336;
+}
+
+
+/* table */
+
+.table{
+    display:flex;
+    display:inline-block;
+    margin-left:4rem;
+}
+
+.align{
+    margin-left: 3rem; 
+}
+
+.normal{
+    color: black;
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+    padding:10px;
+}
+
+.foot{
+    width: 24px;
+    height: 24px;
+    margin-right:10px;
+}
+
+.list{
+    padding:2px;
+}
+
+.textfoot{
+    display: flex;
+    justify-content: center;
+    color:black;
+    height:74px;
+    width:100%;
+}

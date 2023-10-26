@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="home.css">
+    <title>Courses</title>
+</head>
+<body class="courses">  
+
+    <header>
+        <div class="sub-hero">
+            <div class="navbar" >
+                <div class="inline_block">
+                    <img class="logo" src="logo.png">
+                </div>
+                <div class="right hide inline_block" id="navBar">
+                    <i class="fa fa-times" onclick="hideMenu()"></i> 
+                    <ul>
+                        <li class="inline_block"><a class="links hero-links inl" href="home.html">Home</a></li>
+                        <li class="inline_block"><a class="links hero-links inl" href="about.html">About</a></li>
+                        <li class="inline_block"><a class="links hero-links inl" href="home.html">Courses</a></li>
+                        <li class="inline_block"><a class="links hero-links inl" href="contact.html">Contact</a></li>
+                    </ul>  
+                </div>
+                <i class="fa fa-bars"onclick="showMenu()"></i>   
+            </div>
+
+            <h1>Courses</h1>
+    </header>
+
+    <main>
+        <div class="brief">
+            <section class="catchline">
+                <h2>What you can avail</h2>
+            </section>
+            <section class="info">
+                <p>There are three categories</p>
+            </section>
+
+            <div class="cards">
+                <div class="intermediate inline_block">
+                    <h2>Intermediate</h2>
+                    <p class="move">Lorem ipsum dolor sit amet consectetur adipisicing elit. In natus explicabo illum? Unde iste dolorem nulla repellat doloribus expedita eum .</p>
+                </div>
+                <div class="Degree inline_block">
+                    <h2>Degree</h2>
+                    <p class="move">Lorem ipsum dolor sit amet consectetur adipisicing elit. In natus explicabo illum? Unde iste dolorem nulla repellat doloribus expedita eum .</p>
+                </div>
+                <div class="Post-Graduation inline_block">
+                    <h2>Post Graduation</h2>
+                    <p class="move">Lorem ipsum dolor sit amet consectetur adipisicing elit. In natus explicabo illum? Unde iste dolorem nulla repellat doloribus expedita eum .</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="facilities">
+            <div class="catchline">
+                <h2>Our facilities</h2>
+            </div>
+            <p class="info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur recusandae laborum architecto natus, consectetur iste.</p>
+            <div class="shift inline_block">
+                <img class="teacher image" src="teacher.jpeg">
+                <div>
+                    <p>We provide the best teachers at ur home comfort</p>
+                </div>
+            </div>
+            <div class="shift inline_block">
+                <img class="teacher image" src="quiztime.jpg">
+                <div>
+                    <p>Easy to challenging tests</p>
+                </div>
+            </div>
+            <div class="shift inline_block">
+                <img class="teacher image" src="qna.jpg">
+                <div>
+                    <p>Frequent doubt solving sessions</p>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="lectures">
+            <h3>All the courses we offer are beginner friendly</h3>
+            <div class="video1">
+                <iframe width="330" height="200"  src="https://www.youtube.com/embed/G47W5lPZqvc?si=hkVvmDqArCnsv5b5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>                <div class="aboutLec inline_block">
+                    <h3>Why you should pursue Web-Dev</h3>
+                    <p>This small tutorial will clear all your doubts regarding why you should become a web developer</p>
+                </div>
+            </div>
+
+            <div class="video1">
+                <iframe width="330" height="200"  src="https://www.youtube.com/embed/HcOc7P5BMi4?si=9wJBUNf6ECGg3kxG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <div class="aboutLec inline_block">
+                    <h3>Learn HTML in 2 days</h3>
+                    <p>This course goes from basic to deep applications of HTML</p>
+                </div>
+            </div>
+            
+            <div class="video1">
+                <iframe width="330" height="200"  src="https://www.youtube.com/embed/ESnrn1kAD4E?si=qf1C6RIYSoCndJqN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>                <div class="aboutLec inline_block">
+                    <h3>Learn CSS in 5 days</h3>
+                    <p>This is the best course for CSS it covers all the topic there are to be known</p>
+                </div>
+            </div>
+
+            <div class="video1">
+                <iframe width="330" height="200" src="https://www.youtube.com/embed/W6NZfCO5SIk?si=bBe1SWbxtMz1ptAk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>                <div class="aboutLec inline_block">
+                    <h3>Complete JS guide</h3>
+                    <p>Js guide will teach you JS from basic coding</p>
+                </div>
+            </div>
+
+        </div>
+
+    </main>
+       
+    <footer>
+        <div class="footer">
+            <h4>About us</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit vel at cupiditate quam assumenda. Voluptate in sed libero sunt repellat, odit dolorem culpa odio, animi esse amet. Tempore, sint dolorem?</p>
+            <div class="icons">
+                <i class="fa fa-facebook" onclick="openSocialLink('facebook')"></i>
+                <i class="fa fa-twitter" onclick="openSocialLink('twitter')"></i>
+                <i class="fa fa-instagram" onclick="openSocialLink('instagram')"></i>
+                <i class="fa fa-linkedin" onclick="openSocialLink('linkedin')"></i>
+            </div>
+            <p>Made with <i class="fa fa-heart-o"></i> by Ez learn</p>
+        </div>
+        
+        <div class="inline_block">
+            <a href="#" class="inline_block links">Disclaimer</a>
+            <a href="#" class="inline_block links">Privacy policy</a>
+            <a href="#" class="inline_block links">Terms of Services</a>
+            <a href="#" class="inline_block links">Sitemap</a>
+        </div>
+
+        <div class="right inline_block">
+            <span class="inline_block">&copy; 2023, Ez-learn. All rights reserved.</span>
+        </div>
+    </footer>
+
+<!-- Script link -->
+<script src="home.js">
+
+</script>
+
+</body>
+</html>

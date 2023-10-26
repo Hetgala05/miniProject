@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="home.css">
+    <title>Home-page</title>
+</head>
+<body>  
+
+    <header>
+        <div class="hero">
+            <div class="navbar" >
+                <div class="inline_block">
+                    <img class="logo" src="logo.png">
+                </div>
+                <div class="right hide inline_block" id="navBar">
+                    <i class="fa fa-times" onclick="hideMenu()"></i> 
+                    <ul>
+                        <li class="inline_block"><a class="links hero-links inl" href="home.html">Home</a></li>
+                        <li class="inline_block"><a class="links hero-links inl" href="about.html">About</a></li>
+                        <li class="inline_block"><a class="links hero-links inl" href="courses.html">Courses</a></li>
+                        <li class="inline_block"><a class="links hero-links inl" href="contact.html">Contact</a></li>
+                    </ul>  
+                </div>
+                <i class="fa fa-bars"onclick="showMenu()"></i>
+                
+            </div>
+                <div class="first_page">
+                    <section class="catchline">
+                        <h1>Welcome to Ez-learn</h1>
+                    </section>
+                    <section class="info">
+                        <h4>Learning made easy with Ez-learn, Get best and easy to understand courses questions and quick support </h4>
+                        <!-- search for pointer to hand and apply js for the button -->
+                        <a href="about.html"><button class="hero-btn">Visit us to know more</button></a>
+                    </section>
+                </div>
+            
+            
+        </div>
+    </header>
+       
+    <main>
+        <div class="brief">
+            <section class="catchline">
+                <h2>What you can avail</h2>
+            </section>
+            <section class="info">
+                <p>There are three categories</p>
+            </section>
+
+            <div class="cards">
+                <div class="intermediate inline_block">
+                    <h2>Intermediate</h2>
+                    <p class="move">Lorem ipsum dolor sit amet consectetur adipisicing elit. In natus explicabo illum? Unde iste dolorem nulla repellat doloribus expedita eum .</p>
+                </div>
+                <div class="Degree inline_block">
+                    <h2>Degree</h2>
+                    <p class="move">Lorem ipsum dolor sit amet consectetur adipisicing elit. In natus explicabo illum? Unde iste dolorem nulla repellat doloribus expedita eum .</p>
+                </div>
+                <div class="Post-Graduation inline_block">
+                    <h2>Post Graduation</h2>
+                    <p class="move">Lorem ipsum dolor sit amet consectetur adipisicing elit. In natus explicabo illum? Unde iste dolorem nulla repellat doloribus expedita eum .</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="locations">
+            <div class="catchline">
+                <h2>Our offline centers</h2>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing Suscipit atque quasi ipsam aperiam.</p>
+              <div class="shift inline_block">
+                <img class="place image" src="mumbai.png">
+                <div class="layer">
+                    <h2>Mumbai</h2>
+                </div>
+              </div>  
+              <div class="shift inline_block">
+                <img class="place image" src="newyork.png">
+                <div class="layer">
+                    <h2>New-york</h2>
+                </div>
+              </div> 
+              <div class="shift inline_block">
+                <img class="place image" src="washington.png">
+                <div class="layer">
+                    <h2>Washington</h2>
+                </div>
+              </div> 
+        </div>
+
+        <div class="facilities">
+            <div class="catchline">
+                <h2>Our facilities</h2>
+            </div>
+            <p class="info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur recusandae laborum architecto natus, consectetur iste.</p>
+            <div class="shift inline_block">
+                <img class="teacher image" src="teacher.jpeg">
+                <div>
+                    <p>We provide the best teachers at ur home comfort</p>
+                </div>
+            </div>
+            <div class="shift inline_block">
+                <img class="teacher image" src="quiztime.jpg">
+                <div>
+                    <p>Easy to challenging tests</p>
+                </div>
+            </div>
+            <div class="shift inline_block">
+                <img class="teacher image" src="qna.jpg">
+                <div>
+                    <p>Frequent doubt solving sessions</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="reviews">
+            <div class="catchline">
+                <h2>Our reviews</h2>
+            </div>
+            <p class="info">Look at some of the users experience with us</p>
+            <div class="student inline_block">
+                <img class="inline_block user1" src="user2.jpg">
+                <p class="inline_block">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat rerum eligendi unde illo a nemo voluptatem excepturi velit tempora temporibus.
+                </p>
+                <h3>David Byer</h3> 
+            </div>
+            <div class="student inline_block">
+                <img class="inline_block user1" src="user1.jpg">
+                <p class="inline_block">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat rerum eligendi unde illo a nemo voluptatem excepturi velit tempora temporibus.
+                </p>
+                <h3>Claire Yarte</h3>
+            </div>
+        </div>
+
+        <div class="cta">
+            <h1>Enroll now for the best online courses<br>available on the internet.</h1>
+            <button class="hero-btn">Contact us</button>
+        </div>
+
+    </main>
+
+    <footer>
+        
+        <div class="footer">
+            <h4>About us</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit vel at cupiditate quam assumenda. Voluptate in sed libero sunt repellat, odit dolorem culpa odio, animi esse amet. Tempore, sint dolorem?</p>
+            <div class="icons">
+                <i class="fa fa-facebook" onclick="openSocialLink('facebook')"></i>
+                <i class="fa fa-twitter" onclick="openSocialLink('twitter')"></i>
+                <i class="fa fa-instagram" onclick="openSocialLink('instagram')"></i>
+                <i class="fa fa-linkedin" onclick="openSocialLink('linkedin')"></i>
+            </div>
+            <p>Made with <i class="fa fa-heart-o"></i> by Ez learn</p>
+        </div>
+
+        <div class="inline_block">
+            <a href="#" class="inline_block links">Disclaimer</a>
+            <a href="#" class="inline_block links">Privacy policy</a>
+            <a href="#" class="inline_block links">Terms of Services</a>
+            <a href="#" class="inline_block links">Sitemap</a>
+        </div>
+
+        <div class="right inline_block">
+            <span class="inline_block">&copy; 2023, Ez-learn. All rights reserved.</span>
+        </div>
+<!-- 
+        <div class="table">
+            <section>
+               <div class="table">
+                   <h4 class="align">Company info</h4>
+                  
+                       <ul>
+                           <li><a class="normal" href="/">About us</a></li>
+                           <li><a class="normal" href="/">Carier</a></li>
+                           <li><a class="normal" href="/">We are hiring</a></li>
+                           <li><a class="normal" href="/">Blog</a></li>
+                       </ul>
+               </div>
+               <div class="table">
+                   <h4 class="align">Legal</h4>
+                       <ul>
+                           <li><a class="normal" href="/">About us</a></li>
+                           <li><a class="normal" href="/">Carier</a></li>
+                           <li><a class="normal" href="/">We are hiring</a></li>
+                           <li><a class="normal" href="/">Blog</a></li>
+                       </ul>
+               </div>
+                   
+               <div class="table">
+                   <h4 class="align">Features</h4>
+                       <ul>
+                           <li><a class="normal" href="/">Business marketing</a></li>  
+                           <li><a class="normal" href="/">User Analytic</a></li>
+                           <li><a class="normal" href="/">Live chat</a></li>
+                           <li><a class="normal" href="/">Unlimited Support</a></li>
+                       </ul>
+               </div>
+               <div class="table">
+                   <h4 class="align">Resources</h4>
+                       <ul>
+                           <li><a class="normal" href="/">IOS & Android</a></li>
+                           <li><a class="normal" href="/">Watch a Demo</a></li>
+                           <li><a class="normal" href="/">Customers</a></li>
+                           <li><a class="normal" href="/">API</a></li>
+                       </ul>
+               </div>
+               <div class="table">
+                   <h4 class="align">Get in touch</h4>
+                       <ul>
+                           <p class="list"><i class="fa fa-phone"></i><img class="foot">(480) 555-0103</p>
+                           <p class="list"><i class="fa fa-map-marker"></i><img class="foot"> 4517 Washington Ave. Manchester,<br> Kentucky 39495</p>
+                           <p class="list"><i class="fa fa-envelope"></i><img class="foot">compute@example.com</p>
+                       </ul>
+               </div>
+           </section>
+           <div class="textfoot">
+            <h3 class="inline_block">&copy; 2023, Ez-learn. All rights reserved.</h3> -->
+        </div>
+       </div>        
+
+    </footer>
+
+<!-- Script link -->
+<script src="home.js">
+
+</script>
+
+</body>
+</html>

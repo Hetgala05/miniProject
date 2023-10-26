@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="home.css">
+    <title>About</title>
+</head>
+<body>  
+
+    <header>
+        <div class="sub-hero">
+            <div class="navbar" >
+                <div class="inline_block">
+                    <img class="logo" src="logo.png">
+                </div>
+                <div class="right hide inline_block" id="navBar">
+                    <i class="fa fa-times" onclick="hideMenu()"></i> 
+                    <ul>
+                        <li class="inline_block"><a class="links hero-links inl" href="home.html">Home</a></li>
+                        <li class="inline_block"><a class="links hero-links inl" href="about.html">About</a></li>
+                        <li class="inline_block"><a class="links hero-links inl" href="courses.html">Courses</a></li>
+                        <li class="inline_block"><a class="links hero-links inl" href="contact.html">Contact</a></li>
+                    </ul>  
+                </div>
+                <i class="fa fa-bars"onclick="showMenu()"></i>   
+            </div>
+            <h1>About us</h1>
+        </div>
+        <div class="about-content">
+            <div class="title text inline_block">
+                <h1>This is the best place for online learning</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur iste consectetur impedit cum veritatis ullam enim, vel alias iusto, asperiores id quis. Modi voluptatibus blanditiis possimus ea praesentium quae molestias?
+                Quae ut perspiciatis ea sapiente asperiores esse qui provident. Numquam sit a doloremque non, enim qui consequatur. Temporibus optio ratione vero magnam asperiores, qui tempore animi inventore neque, sapiente dignissimos.</p>
+                <a class="hero-btn hero-links" href="">Explore now</a>
+            </div>
+            <div class="text size inline_block">
+                <p><img class="about-img" src="about.jpg"></p>
+            </div>
+        </div>
+    </header>
+       
+    <footer>
+
+        <div class="footer">
+            <h4>About us</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit vel at cupiditate quam assumenda. Voluptate in sed libero sunt repellat, odit dolorem culpa odio, animi esse amet. Tempore, sint dolorem?</p>
+            <div class="icons">
+                <i class="fa fa-facebook" onclick="openSocialLink('facebook')"></i>
+                <i class="fa fa-twitter" onclick="openSocialLink('twitter')"></i>
+                <i class="fa fa-instagram" onclick="openSocialLink('instagram')"></i>
+                <i class="fa fa-linkedin" onclick="openSocialLink('linkedin')"></i>
+            </div>
+            <p>Made with <i class="fa fa-heart-o"></i> by Ez learn</p>
+        </div>
+        
+        <div class="inline_block">
+            <a href="#" class="inline_block links">Disclaimer</a>
+            <a href="#" class="inline_block links">Privacy policy</a>
+            <a href="#" class="inline_block links">Terms of Services</a>
+            <a href="#" class="inline_block links">Sitemap</a>
+        </div>
+
+        <div class="right inline_block">
+            <span class="inline_block">&copy; 2023, Ez-learn. All rights reserved.</span>
+        </div>
+    </footer>
+
+<!-- Script link -->
+<script src="home.js">
+
+</script>
+
+</body>
+</html>
